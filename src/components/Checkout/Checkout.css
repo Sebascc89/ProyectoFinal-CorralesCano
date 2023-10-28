@@ -1,0 +1,52 @@
+.Checkout {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+.Checkout__Container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  gap: 20px;
+
+  align-items: center;
+  background-color: #1C1630;
+}
+
+.Checkout__Label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: white;
+  font-weight: 500;
+  width: 95%;
+}
+
+.Checkout__Label > input {
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+.Checkout__Label > input::-webkit-outer-spin-button,
+.Checkout__Label > input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Checkout__Button {
+  width: max-content;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+  padding: 3px 7px;
+}

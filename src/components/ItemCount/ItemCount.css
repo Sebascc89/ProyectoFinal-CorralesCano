@@ -1,0 +1,43 @@
+.Counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Controls {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.Button {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 2px #eeeeee;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+.Button--decrement {
+  background-color: #ff5d52;
+}
+
+.Button--increment {
+  background-color: #4dc28b;
+}
+
+.AddButton {
+  padding: 4px 9px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(116, 116, 116);
+  color: white;
+  font-weight: 500;
+
+}

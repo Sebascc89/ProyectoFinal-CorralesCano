@@ -1,0 +1,135 @@
+.CartDetail {
+  height: calc(100vh - 60px);
+  padding: 30px 20px;
+  background-color: white;
+  /* position: relative; */
+
+}
+
+.CartDetail__Container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 30px 20px;
+  border: 2px solid rgb(196, 196, 196);
+  border-radius: 6px;
+  justify-content: space-between;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.CartDetail__List {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: calc(100% - 92px);
+  overflow-y: auto;
+}
+
+.CartDetail__Checkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 92px;
+  bottom: 0;
+  left: 0;
+}
+
+.CartDetail__CheckoutActions {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.ClearButton {
+  text-decoration: none;
+  background-color: rgb(212, 30, 30);
+  color: white;
+  font-weight: 500;
+  padding: 3px 9px;
+  border-radius: 5px;
+  border: none;
+}
+
+.CheckoutButton {
+  text-decoration: none;
+  background-color: #2d4edd;
+  color: white;
+  font-weight: 500;
+  padding: 3px 9px;
+  border-radius: 5px;
+  border: none;
+}
+
+.CartItem {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  place-content: center;
+  place-items: center;
+}
+
+.CartItem:nth-child(1) {
+  font-weight: 600;
+  color: #777777;
+}
+
+.CartItem__Header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.CartItem__Description {
+  width: 100%;
+  text-align: left;
+}
+
+.CartItem__Description>span:nth-child(1) {
+  font-weight: 600;
+}
+
+.CartItem__Description>span:nth-child(2) {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+
+
+.CartItem__Product {}
+
+
+.CartItem__Price {}
+
+.CartItem__Units {}
+
+.CartItem__Total {}
+
+.CartItem>img {
+  width: 100px;
+  object-fit: cover;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 4px;
+  background-color: rgb(247, 247, 247);
+}
+
+.CartItem__Description {
+  display: flex;
+  flex-direction: column;
+}
+
+.DeleteButton {
+  border: none;
+  background-color: rgb(255, 84, 84);
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.DeleteButton:hover {
+  background-color: rgb(209, 69, 69);
+}
